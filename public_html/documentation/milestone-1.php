@@ -6,14 +6,19 @@
 </head>
 <body>
 <p>
-	purpose; I would like my PWP to help me learn how to create a web site that works well and looks good.
+	<strong>purpose</strong>; This website will teach me the tools and give me the experience I need to be a professional web developer.
 <br>
-	audience;My goal audience is comprised of people who are interested in ghost hunting
-	and the paranormal. My audience is comprised of a very diverse crowd ranging
-	younge to old, rich to poor ect. hopfully a few TV executives as well.
+	<br>
+	<strong>audience</strong>; This webiste is constructed to attract people who enjoys ghost hunting and spooky things.
+	<br>
+	the target audience is a large group of ghost hunters and wanna be ghost hunters who enjoy viewing or examining
+	<br>
+	the work of other teams, and hopefully a TV executive or two.
 <br>
-	Goal; To serve as a gallery to showcase and promote my work in the feild as well as the (cercumstantial)
-	eveidence my team and I collect durring our ventures.
+<br>
+	<strong>Goal</strong>; The main goal of this site is to serve as a gallery to showcase and promote my work in the field as well as
+	<br>
+	the (circumstantial) evidence my team and I collect during our ventures and investigations.
 </p>
 </body>
 </html>
