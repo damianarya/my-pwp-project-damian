@@ -25,7 +25,7 @@
 <p>
 	<h1> Persona</h1>
 <br>
-<img src="pwpimage.jpg">
+<img alt src="pwpimage.jpg">
 <br>
 <br>
 	<strong>Name</strong>; Debbie Housifgabe
@@ -80,6 +80,5 @@
 	<strong>User Story</strong>; As a user, I want to see the results of paranormal research investigations presented to
 	<br>
 	me in a way that really pulls me in.
-</p>
 </body>
 </html>
