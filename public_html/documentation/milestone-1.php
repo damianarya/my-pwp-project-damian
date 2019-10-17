@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 </head>
 <body>
-<p>
 	<strong>purpose</strong>; This website will teach me the tools and give me the experience I need to be a professional web developer.
 <br>
 	<br>
@@ -19,7 +18,6 @@
 	<strong>Goal</strong>; The main goal of this site is to serve as a gallery to showcase and promote my work in the field as well as
 	<br>
 	the (circumstantial) evidence my team and I collect during our ventures and investigations.
-</p>
 <br>
 <br>
 <p>
