@@ -26,9 +26,8 @@
 	<h1> Persona</h1>
 <br>
 <img src="pwpimage.jpg">
-</p>
 <br>
-<p>
+<br>
 	<strong>Name</strong>; Debbie Housifgabe
 	<br>
 	<br>
@@ -59,7 +58,7 @@
 	<br>
 	down and forget about for a long time but pick back up right where she left off, like an Ann Rice book or that pizza
 	<br>
-	in the fridge. Oh and she pritty sure she saw a ghost once.
+	in the fridge. Oh and she is pritty sure she saw a ghost once.
 	<br>
 	<br>
 	<strong>Frustrations and Needs</strong>; Debbie gets so board, her shows dont air any new episodes in the summer so
@@ -69,7 +68,18 @@
 	for her paranormal curiosity needs. She also wants to know if the ghost she saw compares to the ones other people have seen.
 	<br>
 	<br>
-	<strong>Goals</strong>;
+	<strong>Goals</strong>; Debbie wants to get hooked on something that suits her interests with out having to put in a
+	<br>
+	lot of effort. She doesnt want to have to go out and find a ghost or haunted location herself, she wants to see the
+	<br>
+	results of that work without having to leave her couch or do any real research on locations or history. Debbie wants
+	<br>
+	it all presented to her in one neat package.
+	<br>
+	<br>
+	<strong>User Story</strong>; As a user, I want to see the results of paranormal research investigations presented to
+	<br>
+	me in a way that really pulls me in.
 </p>
 </body>
 </html>
