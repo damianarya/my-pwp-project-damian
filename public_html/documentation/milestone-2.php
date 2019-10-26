@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 </head>
 <body>
-<p>My site will be one page and consist of the following sections.<br>
-<br><strong>Welcome</strong> this will be a large picture of my team and I.<br>
+<p> My site will be one page and consist of the following sections.<br>
+<br><strong>Welcome</strong> this will be a large picture of my team and I. It will also include the name of the team (N.M.S.P.R.)<br>
 	I intend on putting an official logo and possibly a search bar at the top above the graphic image.<br>
 <br>
 	<div>
@@ -24,9 +24,21 @@
 	go to a group email adress. We will also have a "join the team" option for people who wish to join the fan club by adding<br>
 	there name and email for official updates on the teams new adventures. At the bottom of the page there will be a few links<br>
 	to other social media sites the group maintains and possibly a youtube link to a page that showcases our vidios. This section<br>
-	will be a different color from the preceding one.
+	will be a different color from the preceding one. All disclaimers and "dont do this at home" warnings will be posted between<br>
+	the join team aera and the links.
+	<br>
 </div>
 </p>
-
-
+<br>
+<p><strong>mobile</strong></p>
+<br>
+<div>
+	<img src="wireframe-mobile.png">
+</div>
+<br>
+<p> <strong>desktop</strong></p>
+<br>
+<div>
+	<img src="wireframe-desktop.png">
+</div>
 </body>
