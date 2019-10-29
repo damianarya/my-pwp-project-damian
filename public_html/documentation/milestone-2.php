@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>pwp project milestone two</title>
@@ -28,17 +28,16 @@
 	the join team area and the links.<br>
 	<br>
 </div>
-</p>
 <br>
 <p><strong>mobile</strong></p>
 <br>
 <div>
-	<img src="wireframe-mobile.png">
+	<img src="wireframe-mobile.png" alt="wire mobile">
 </div>
 <br>
 <p> <strong>desktop</strong></p>
 <br>
 <div>
-	<img src="wireframe-desktop.png">
+	<img src="wireframe-desktop.png" alt="wire laptop">
 </div>
 </body>
