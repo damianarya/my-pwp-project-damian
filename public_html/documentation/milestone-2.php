@@ -21,9 +21,9 @@
 	with the pictures above as the user scrolls from one image to the next.<br>
 	<br>
 	<strong>Contact</strong> This section will be set up for fans to contact the group. There will be an email option that will
-	go to a group email adress. We will also have a "join the team" option for people who wish to join the fan club by adding
+	go to a group email address. We will also have a "join the team" option for people who wish to join the fan club by adding
 	there name and email for official updates on the teams new adventures. At the bottom of the page there will be a few links
-	to other social media sites the group maintains and possibly a youtube link to a page that showcases our vidios. This section
+	to other social media sites the group maintains and possibly a youtube link to a page that showcases our videos. This section
 	will be a different color from the preceding one. All disclaimers and "dont do this at home" warnings will be posted between
 	the join team area and the links.<br>
 	<br>
