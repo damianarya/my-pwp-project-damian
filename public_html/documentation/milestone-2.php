@@ -6,7 +6,8 @@
 </head>
 <body>
 <p> My site will be one page and consist of the following sections.<br>
-<br><strong>Welcome</strong> this will be a large picture of my team and I. It will also include the name of the team (N.M.S.P.R.) I want this to be large but not take up the entire screen, I want it to be obvious that there is more below.<br>
+<br><strong>Welcome</strong> this will be a large picture of my team and I. It will also include the name of the team (N.M.S.P.R.) or New Mexico society of paranormal research for those who like T.L.D.R.
+	I want this to be large but not take up the entire screen, I want it to be obvious that there is more below. <br>
 <br>
 	<div>
 	<strong>About us</strong> This section will have an image for every current member of the team as well as a short
