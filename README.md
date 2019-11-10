@@ -11,3 +11,10 @@ This site is for supernatural enthusiasts to share there adventures.
 
 Overall, this is a good project.  You've got the technical details down well, and you have a thorough grasp of the point of the project.  There's a few small things that keep this from being a truly next-level project, such as a very basic look and some writing that could be a bit more consistent.  The theme is interesting, and I'm eager to see what direction you go in with this PWP.
 **Milestone 1 Grade: Tier III**
+
+## Milestone 2 Feedback
+* Your content strategy is clear and concise.  Nice work.
+* Your bios should be represented by a longer block of text in your mobile wireframes.  It's going to be tricky to fit those into the space you've allotted them on the mobile version.  Also, where's the name of the person?
+* Is there an application process to join the team?  I can't tell, so you'll want to make sure that's clear if that's the nature of your contact form.  Probably you want to gather a bit more info about them.
+
+This is very good work.  Clear, concise, and directed, with an easy-to-follow point for the site, and good-looking wireframes and content that clearly articulate the point of the site.  With early submission, **this milestone grades at a Tier IV.**
