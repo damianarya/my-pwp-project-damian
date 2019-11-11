@@ -16,19 +16,19 @@
 
 //mailgun API Key authorization
 
-$mailgunApiKey = "-- MAILGUN API KEY --";
-$mailgunDomain = " --MAILGUN DOMAIN NAME --";
+$mailgunApiKey = "5d17b26a46f84c7c97404c301d8015fb-1df6ec32-4e4a18af";
+$mailgunDomain = "sandboxdc3436ed75834cefa960de89cf9cf541.mailgun.org";
 
 
 // your Google reCAPTCHA keys here
 // your Google reCAPTCHA keys here
-$siteKey = '-- reCAPTCHA SITE KEY --';
-$secret = '-- reCAPTCHA SECRET KEY --';
+$siteKey = '6LesKsIUAAAAADHbdDGWeqAbJdKSF4Rl5XgRrvmu';
+$secret = '6LesKsIUAAAAAElXwH2vcqCGNODj1oMtCElS59TA';
 
 /**
  * attach the recipients to the message
  * notice this an array that can include or omit the the recipient's real name
  * use the recipients' real name where possible; this reduces the probability of the Email being marked as spam
  **/
-$MAIL_RECIPIENTS = [ "mail@email.com", "Recipient Name"];
-$MAIL_RECIPIENT = ["mail@mail.com"];
+$MAIL_RECIPIENTS = [ "dahakcyrus@yahoo.com", "NMSPR"];
+$MAIL_RECIPIENT = ["dahakcyrus@yahoo.com"];
