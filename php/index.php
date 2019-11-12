@@ -21,7 +21,7 @@ use ReCaptcha\ReCaptcha;
 
 
 // verify user's reCAPTCHA input
-$recaptcha = new ReCaptcha($secret);
+$recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 
 try {
