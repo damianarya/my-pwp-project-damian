@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<!--library for css and bootstrap-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<!--library for css and bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+			  crossorigin="anonymous"></script>
+
+	<!-- jQuery Form, Additional Methods, Validate -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+	<!-- Your JavaScript Form Validator -->
+	<script src="js/form-validate.js"></script>
+
+	<!-- Google reCAPTCHA -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+	<!--my css link for some style -->
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<title>NMSPR</title>
 	<meta name="keywords" content="ghost, ghost hunt, ghost hunting, ghost hunters, paranormal, society, spooky, haunted, new mexico, albuquerque, demon, investigation, ">
@@ -19,7 +36,7 @@
 	<section>
 		<div class="jumbotron-fluid py-5 px-5 intro-background bg-dark mx-auto d-block">
 			<h1 class="display-4"> New Mexico Society of Paranormal Research</h1>
-			<img src="pwp-backdrop.png" class="img-fluid" alt="spooky backdrop">
+			<img src="images/pwp-backdrop.png" class="img-fluid" alt="spooky backdrop">
 			<p class="lead">Hunting for all that goes bump in the night.</p>
 		</div>
 	</section>
@@ -40,7 +57,7 @@
 				<!--this is a card containing the info and pic for Pat-->
 			</div>
 				<div class="col-lg-4 col-sm-6">
-					<img src="pwp-pat-2.png" height="400" width="400" class="img-fluid mb-4" alt="Pat the team leader">
+					<img src="images/pwp-pat-2.png" height="400" width="400" class="img-fluid mb-4" alt="Pat the team leader">
 					<div class="card mb-4">
 						<div class="card-body">
 							<p class="card-text">quick bio about Pat</p>
@@ -91,7 +108,7 @@
 	</div>
 </section>
 
-<!-- this section adds the carousl of pis-->
+<!-- this section adds the carousl of pics-->
 <h3>This is the displaycase section about team hunts</h3>
 <section>
 <div class="container py-12">
@@ -103,13 +120,13 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="pwp-option-sf.png" alt="Santa Fe prison">
+				<img class="d-block w-100" src="images/pwp-option-sf.png" alt="Santa Fe prison">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="pwp-stanly-2.png" alt="Stanly hotel">
+				<img class="d-block w-100" src="images/pwp-stanly-2.png" alt="Stanly hotel">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100"  src="pwp-nmspr-logo.png" alt="logo">
+				<img class="d-block w-100" src="images/pwp-nmspr-logo.png" alt="logo">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -126,6 +143,64 @@
 
 <!--the contact us section goes here-->
 
+<form id="Damian's-contact-form" action="../php/" method="post">
+	<div class="form-group">
+		<label for="my-contact-form">Name <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-user" aria-hidden="true"></i>
+			</div>
+			<input type="text" class="form-control" id="my-contact-form" name="my-contact-form" placeholder="Name">
+		</div>
+	</div>
+	<!-- This section is for users email-->
+	<div class="form-group">
+		<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+			</div>
+			<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="contactDemoSubject">Subject</label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-pencil" aria-hidden="true"></i>
+			</div>
+			<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-comment" aria-hidden="true"></i>
+			</div>
+			<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
+		</div>
+	</div>
+
+	<!-- reCAPTCHA -->
+	<div class="g-recaptcha" data-sitekey="6LesKsIUAAAAADHbdDGWeqAbJdKSF4Rl5XgRrvmu"></div>
+
+	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+</form>
+
+<!--empty area for form error/success output-->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="output-area"></div>
+	</div>
+</div>
+
+<!--footer-->
 <footer>
 		<div class="container-fluid bg-dark text-light text-center py-5">
 			<small>This is where I need to add the links to youtube and twitter</small>
