@@ -43,7 +43,6 @@ try {
 
 
 
-
 	// create Swift message
 	$swiftMessage = new Swift_Message();
 	/**
