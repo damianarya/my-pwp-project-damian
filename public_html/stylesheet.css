@@ -1,4 +1,12 @@
 body {
-	background-color: black; text-decoration-color: #177a4d;
+	background-color: black;
+	color: #177a4d;
 }
 
+.landing {
+	background: url(images/pwp-backdrop.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
