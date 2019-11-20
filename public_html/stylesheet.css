@@ -3,10 +3,17 @@ body {
 	color: #177a4d;
 }
 
-/*.landing {*/
-/*	background: url(images/pwp-backdrop.png) no-repeat center center fixed;*/
-/*	-webkit-background-size: cover;*/
-/*	-moz-background-size: cover;*/
-/*	-o-background-size: cover;*/
-/*	background-size: cover;*/
-/*}*/
+/*<div class="jumbotron-fluid py-5 px-5 intro-background bg-dark mx-auto"> */
+/*<h1 class="display-4"> New Mexico Society of Paranormal Research</h1> */
+/*<img src="images/pwp-backdrop.png" class="img-fluid" alt="spooky backdrop"/> */
+/*<p class="lead">Hunting for all that goes bump in the night.</p> */
+/*</div>*/
+
+.landing {
+	background: url("images/pwp-backdrop.png") no-repeat center center fixed;
+	padding: 10rem;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
