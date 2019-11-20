@@ -3,10 +3,10 @@ body {
 	color: #177a4d;
 }
 
-.landing {
-	background: url(images/pwp-backdrop.png) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+/*.landing {*/
+/*	background: url(images/pwp-backdrop.png) no-repeat center center fixed;*/
+/*	-webkit-background-size: cover;*/
+/*	-moz-background-size: cover;*/
+/*	-o-background-size: cover;*/
+/*	background-size: cover;*/
+/*}*/
