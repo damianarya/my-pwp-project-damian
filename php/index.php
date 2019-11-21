@@ -49,6 +49,7 @@ try {
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
 	 **/
+	/** @noinspection PhpUndefinedVariableInspection */
 	$swiftMessage->setFrom([$email => $name]);
 	/**
 	 * Attach the recipients to the message.
@@ -56,6 +57,7 @@ try {
 	 **/
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
+
 	// attach the subject line to the message
 	$swiftMessage->setSubject($subject);
 	/**
