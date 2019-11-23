@@ -5,6 +5,7 @@ body {
 
 .landing {
 	background: url("images/pwp-backdrop.png") no-repeat center center fixed;
+	margin-top: 10px;
 	padding: 10rem;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
