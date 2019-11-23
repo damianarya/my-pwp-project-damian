@@ -1,7 +1,6 @@
 body {
 	background-color: black;
 	color: #177a4d;
-	/*text-align: center;*/
 }
 
 .landing {
@@ -11,4 +10,8 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.text-center {
+	text-align: center;
 }
