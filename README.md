@@ -18,3 +18,6 @@ Overall, this is a good project.  You've got the technical details down well, an
 * Is there an application process to join the team?  I can't tell, so you'll want to make sure that's clear if that's the nature of your contact form.  Probably you want to gather a bit more info about them.
 
 This is very good work.  Clear, concise, and directed, with an easy-to-follow point for the site, and good-looking wireframes and content that clearly articulate the point of the site.  With early submission, **this milestone grades at a Tier IV.**
+
+## Milestone 4 feedback
+Looks good. Design follows your intended content strategy well. You have strong and meaningful commits/pushes that are broken up well. There are some issues with image sizing (carousel) and alignment rendering on mobile/smaller browser viewing. Might consider changing the placeholder text in the form, currently using demo text. This passes Tier III.
